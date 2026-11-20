@@ -1,0 +1,25 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Django-generated files
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Test and tooling artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
